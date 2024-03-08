@@ -11,8 +11,8 @@ function App() {
       <Sidebar />
       <Routes>
         <Route path="/" element={<Ranking />} />
-        <Route path="/galeria" element={<Galeria />} />
-        <Route path="/regras" element={<Regras />} />
+        <Route path="galeria" element={<Galeria />} />
+        <Route path="regras" element={<Regras />} />
       </Routes>
     </BrowserRouter>
   );
