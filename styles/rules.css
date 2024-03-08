@@ -1,6 +1,9 @@
 .rules-content{
     max-width: 700px;
-    text-align: left;
+    display: grid;
+    position: relative;
+    margin: 0 auto;
+    justify-content: center;
 }
 
 .rules-content h2{
