@@ -1,0 +1,9 @@
+.page-content{
+    position: relative;
+    margin-left: 250px;
+    padding: 5%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

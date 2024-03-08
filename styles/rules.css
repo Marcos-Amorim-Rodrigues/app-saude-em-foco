@@ -1,0 +1,85 @@
+.rules-content{
+    max-width: 700px;
+    text-align: left;
+}
+
+.rules-content h2{
+    margin: 0;
+    padding: 0;
+}
+
+.objetivo {
+    background-color: #FFF;
+    border-radius: 25px;
+    padding: 25px;
+    border: 1px solid #f1f1f1;
+    transition: 0.6s;
+}
+
+.objetivo:hover{
+    border-color: #003CA8;
+}
+
+.objetivo h2{
+    margin-bottom: 15px;
+}
+
+.participation{
+    margin-top: 25px;
+    text-align: center;
+}
+
+.participation h2{
+    text-align: center;
+}
+
+.participation div{
+    background: #003CA8;
+    color: #FFF;
+    margin-top: 15px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.6s;
+}
+.participation div:hover{
+    zoom: 1.01;
+}
+
+.points-acumulate{
+    margin: 25px 25px 0 0;
+}
+
+.points-acumulate h2{
+    text-align: center;
+}
+
+.div-points{
+    width: 700px;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    gap: 15px;
+}
+
+.div-points div{
+    width: 250px;
+    height: 190px;
+    background-image: linear-gradient(180deg, #1958c4, #003CA8);
+    transition: 1.6s;
+    padding: 15px;
+    border-radius: 25px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFF
+}
+
+.div-points div:hover{
+    background-image: linear-gradient(270deg, #1958c4, #003CA8);
+}
