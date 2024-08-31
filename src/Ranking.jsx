@@ -22,15 +22,17 @@ const Ranking = () => {
         </p>
       </div>
       {usersData ? (
-        usersData.map((dado, index) => (
-          <div key={dado.userName} className="participant-data">
-            <h2>#{index + 1}</h2>
-            <img src="https://i.imgur.com/Zu0okN3.jpeg" alt="" />
-            <h3>{dado.userName}</h3>
-            <hr />
-            <p>{dado.points} pontos</p>
-          </div>
-        ))
+        usersData
+          .sort((a, b) => (a.points < b.points ? 1 : -1))
+          .map((dado, index) => (
+            <div key={dado.userName} className="participant-data">
+              <h2>#{index + 1}</h2>
+              <img src="https://i.imgur.com/Zu0okN3.jpeg" alt="" />
+              <h3>{dado.userName}</h3>
+              <hr />
+              <p>{dado.points} pontos</p>
+            </div>
+          ))
       ) : (
         <>
           <div className="loading">
